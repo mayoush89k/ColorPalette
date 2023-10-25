@@ -1,0 +1,58 @@
+body{
+    max-width: 80%;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(40, 40, 40);
+}
+.palette-generator, button{
+    color: white;
+    border-radius: 10px;
+
+}
+.palette-generator{
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+button{
+    font-size: 2rem;
+    background-color: gray;
+    padding: 10px ;
+}
+button:hover{
+    background-color: crimson;
+}
+button:active{
+    transform: translateY(5px)
+}
+
+#savedPalettesSection{
+    text-decoration: underline;
+}
+
+.colors , .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color-box{
+    margin: 10px;
+    padding: 50px 10px;
+    font-size: 1rem;
+}
+
+.savedBox{
+    margin: 5px;
+    padding: 10px;
+    font-size: 0.8rem;
+    border: 1px solid transparent;
+}
+
+.savedBox:hover{
+    border-color: white;
+}
